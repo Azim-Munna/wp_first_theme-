@@ -1,0 +1,65 @@
+/*
+Theme Name: wp_dev
+Theme URI: www.wp_dev.com
+Author: azim munna
+Author URI: https://azim2562.com/
+Description: this is wp_deb theme
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog,responsive-site,nice-wp-site
+Text Domain: WPS_Dev
+*/
+.calendar_wrap table {
+    width:  100%;
+}
+/*pagination css*/
+.pagination .nav-links a.prev  {
+    border-left-width: 1px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+.nav-links .dots{
+	display: none;
+}
+img{
+	max-width: 100%;
+}
+.nav-links .current {
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+    color: #fff !important;
+    background: black;
+
+}
+/*end pagination css */
+/*-------------------------------------
+    LISTS
+-------------------------------------*/
+
+.right-sidebar-block .menu li { 
+    display: block; 
+    width: 100%;
+    margin-left: 0px;
+    background: url(../images/hr.gif) 0 100% repeat-x; 
+    font-size: 12px; 
+    font-family: verdana;
+}
+
+.right-sidebar-block .menu li a { 
+    display: block; 
+    color: #848484 !important;
+    padding: 11px 0 10px 30px; 
+    background: url(../images/star.png) no-repeat 8px 15px; 
+}
+
+.right-sidebar-block .menu li.active a, .right-sidebar-block .menu li a:hover { 
+    color: #333 !important;
+    background: #f9f9f9 url(../images/star_dark.png) no-repeat 8px 15px; 
+    padding: 11px 0 10px 30px; 
+}
